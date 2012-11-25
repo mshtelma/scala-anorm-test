@@ -1,0 +1,443 @@
+[info] Updating {file:/Volumes/Share/dev/HySym/}default-d51704...
+[debug] post 1.3 ivy file: using exact as default matcher
+[debug] :: resolving dependencies :: default#default-d51704_2.9.2;0.1-SNAPSHOT
+[debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom]
+[debug] 	validate = true
+[debug] 	refresh = false
+[debug] resolving dependencies for configuration 'compile'
+[debug] == resolving dependencies for default#default-d51704_2.9.2;0.1-SNAPSHOT [compile]
+[debug] loadData of default#default-d51704_2.9.2;0.1-SNAPSHOT of rootConf=compile
+[debug] == resolving dependencies default#default-d51704_2.9.2;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->default(compile)]
+[debug] loadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile
+[debug] 	using sbt-chain to resolve org.scala-lang#scala-library;2.9.2
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.9.2 {compile=[default(compile)]}
+[debug] sbt-chain: no namespace defined: using system
+[debug] No entry is found in the ModuleDescriptorCache : /Users/smikesh/.ivy2/cache/org.scala-lang/scala-library/ivy-2.9.2.xml
+[debug] post 1.3 ivy file: using exact as default matcher
+[debug] 	found ivy file in cache for org.scala-lang#scala-library;2.9.2 (resolved by sbt-chain): /Users/smikesh/.ivy2/cache/org.scala-lang/scala-library/ivy-2.9.2.xml
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.9.2
+[debug] sbt-chain: no latest strategy defined: using default
+[debug] local: no namespace defined: using system
+[debug] Entry is found in the ModuleDescriptorCache : /Users/smikesh/.ivy2/cache/org.scala-lang/scala-library/ivy-2.9.2.xml
+[debug] 	found ivy file in cache for org.scala-lang#scala-library;2.9.2 (resolved by sbt-chain): /Users/smikesh/.ivy2/cache/org.scala-lang/scala-library/ivy-2.9.2.xml
+[debug] 	local: revision in cache: org.scala-lang#scala-library;2.9.2
+[debug] 	checking org.scala-lang#scala-library;2.9.2 from sbt-chain against [none]
+[debug] 	module revision kept as first found: org.scala-lang#scala-library;2.9.2 from sbt-chain
+[debug] 	found org.scala-lang#scala-library;2.9.2 in sbt-chain
+[debug] == resolving dependencies default#default-d51704_2.9.2;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->runtime]
+[debug] loadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile
+[debug] == resolving dependencies default#default-d51704_2.9.2;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->compile]
+[debug] loadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile
+[debug] == resolving dependencies default#default-d51704_2.9.2;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->master]
+[debug] loadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile
+[debug] == resolving dependencies default#default-d51704_2.9.2;0.1-SNAPSHOT->play#anorm_2.9.2;2.+ [compile->default(compile)]
+[debug] loadData of play#anorm_2.9.2;2.+ of rootConf=compile
+[debug] 	using sbt-chain to resolve play#anorm_2.9.2;2.+
+[debug] sbt-chain: Checking cache for: dependency: play#anorm_2.9.2;2.+ {compile=[default(compile)]}
+[debug] default-cache: no cached resolved revision for play#anorm_2.9.2;2.+
+[debug] default-cache: no cached resolved revision for play#anorm_2.9.2;2.+
+[debug] 		tried /Users/smikesh/.ivy2/local/play/anorm_2.9.2/[revision]/ivys/ivy.xml
+[debug] 	listing all in /Users/smikesh/.ivy2/local/play/anorm_2.9.2/[revision]/ivys/ivy.xml
+[debug] 	using local to list all in /Users/smikesh/.ivy2/local/play/anorm_2.9.2/
+[debug] 		no resources found
+[debug] 	local: unable to list resources for play#anorm_2.9.2;2.+: pattern=/Users/smikesh/.ivy2/local/[organisation]/[module]/(scala_[scalaVersion]/)(sbt_[sbtVersion]/)[revision]/[type]s/[artifact](-[classifier]).[ext]
+[debug] 	local: no ivy file found for play#anorm_2.9.2;2.+
+[debug] typesafe: no namespace defined: using system
+[debug] default-cache: no cached resolved revision for play#anorm_2.9.2;2.+
+[debug] 		tried http://repo.typesafe.com/typesafe/releases/play/anorm_2.9.2/[revision]/anorm_2.9.2-[revision].pom
+[debug] 	listing all in http://repo.typesafe.com/typesafe/releases/play/anorm_2.9.2/[revision]/anorm_2.9.2-[revision].pom
+[debug] 	using typesafe to list all in http://repo.typesafe.com/typesafe/releases/play/anorm_2.9.2/
+[debug] ApacheURLLister found URL=[http://repo.typesafe.com/typesafe/releases/play/anorm_2.9.2/2.1-0620-sbt12/].
+[debug] ApacheURLLister found URL=[http://repo.typesafe.com/typesafe/releases/play/anorm_2.9.2/2.1-0627-sbt12/].
+[debug] ApacheURLLister found URL=[http://repo.typesafe.com/typesafe/releases/play/anorm_2.9.2/2.1-08072012/].
+[debug] ApacheURLLister found URL=[http://repo.typesafe.com/typesafe/releases/play/anorm_2.9.2/2.1-08212012/].
+[debug] ApacheURLLister found URL=[http://repo.typesafe.com/typesafe/releases/play/anorm_2.9.2/2.1-08292012/].
+[debug] ApacheURLLister found URL=[http://repo.typesafe.com/typesafe/releases/play/anorm_2.9.2/2.1-09052012/].
+[debug] ApacheURLLister found URL=[http://repo.typesafe.com/typesafe/releases/play/anorm_2.9.2/2.1-09062012/].
+[debug] ApacheURLLister found URL=[http://repo.typesafe.com/typesafe/releases/play/anorm_2.9.2/2.1-09092012/].
+[debug] ApacheURLLister found URL=[http://repo.typesafe.com/typesafe/releases/play/anorm_2.9.2/2.1-09142012/].
+[debug] ApacheURLLister found URL=[http://repo.typesafe.com/typesafe/releases/play/anorm_2.9.2/2.1-exp-router-splitter/].
+[debug] ApacheURLLister found URL=[http://repo.typesafe.com/typesafe/releases/play/anorm_2.9.2/maven-metadata.xml].
+[debug] ApacheURLLister found URL=[http://repo.typesafe.com/typesafe/releases/play/anorm_2.9.2/maven-metadata.xml.md5].
+[debug] ApacheURLLister found URL=[http://repo.typesafe.com/typesafe/releases/play/anorm_2.9.2/maven-metadata.xml.sha1].
+[debug] 		found 13 resources
+[debug] 	found revs: [2.1-0620-sbt12, 2.1-0627-sbt12, 2.1-08072012, 2.1-08212012, 2.1-08292012, 2.1-09052012, 2.1-09062012, 2.1-09092012, 2.1-09142012, 2.1-exp-router-splitter, maven-metadata.xml, maven-metadata.xml.md5, maven-metadata.xml.sha1]
+[debug] typesafe: no latest strategy defined: using default
+[debug] 	typesafe: found md file for play#anorm_2.9.2;2.+
+[debug] 		=> http://repo.typesafe.com/typesafe/releases/play/anorm_2.9.2/2.1-09142012/anorm_2.9.2-2.1-09142012.pom (2.1-09142012)
+[debug] 	parser = sbt.CustomPomParser@3f189d43
+[debug] 	no ivy file in cache for play#anorm_2.9.2;2.1-09142012: tried /Users/smikesh/.ivy2/cache/play/anorm_2.9.2/ivy-2.1-09142012.xml
+[debug] downloading http://repo.typesafe.com/typesafe/releases/play/anorm_2.9.2/2.1-09142012/anorm_2.9.2-2.1-09142012.pom ...
+[debug] 	typesafe: downloading http://repo.typesafe.com/typesafe/releases/play/anorm_2.9.2/2.1-09142012/anorm_2.9.2-2.1-09142012.pom
+[debug] 		to /Users/smikesh/.ivy2/cache/play/anorm_2.9.2/ivy-2.1-09142012.xml.original.part
+[debug] sha1 file found for http://repo.typesafe.com/typesafe/releases/play/anorm_2.9.2/2.1-09142012/anorm_2.9.2-2.1-09142012.pom: checking...
+[debug] 	typesafe: downloading http://repo.typesafe.com/typesafe/releases/play/anorm_2.9.2/2.1-09142012/anorm_2.9.2-2.1-09142012.pom.sha1
+[debug] 		to /var/folders/qp/k62jmw3s0wxdsz55214_mf640000gn/T/ivytmp9008833307895364940sha1
+[debug] sha1 OK for http://repo.typesafe.com/typesafe/releases/play/anorm_2.9.2/2.1-09142012/anorm_2.9.2-2.1-09142012.pom
+[debug] 	[SUCCESSFUL ] play#anorm_2.9.2;2.1-09142012!anorm_2.9.2.pom(pom.original) (492ms)
+[debug] 	 trying /Users/smikesh/.ivy2/local/play/anorm_2.9.2/2.1-09142012/jars/anorm_2.9.2.jar
+[debug] 		tried /Users/smikesh/.ivy2/local/play/anorm_2.9.2/2.1-09142012/jars/anorm_2.9.2.jar
+[debug] 	local: resource not reachable for play#anorm_2.9.2;2.1-09142012: res=/Users/smikesh/.ivy2/local/play/anorm_2.9.2/2.1-09142012/jars/anorm_2.9.2.jar
+[debug] 	 trying http://repo.typesafe.com/typesafe/releases/play/anorm_2.9.2/2.1-09142012/anorm_2.9.2-2.1-09142012.jar
+[debug] 		tried http://repo.typesafe.com/typesafe/releases/play/anorm_2.9.2/2.1-09142012/anorm_2.9.2-2.1-09142012.jar
+[debug] no source artifact found for play#anorm_2.9.2;2.1-09142012
+[debug] no javadoc artifact found for play#anorm_2.9.2;2.1-09142012
+[debug] 	default-cache: parsed downloaded md file for play#anorm_2.9.2;2.1-09142012; parsed=play#anorm_2.9.2;2.1-09142012
+[debug] 		[2.1-09142012] play#anorm_2.9.2
+[debug] 	checking play#anorm_2.9.2;2.1-09142012 from typesafe against [none]
+[debug] 	module revision kept as first found: play#anorm_2.9.2;2.1-09142012 from typesafe
+[debug] 	found play#anorm_2.9.2;2.1-09142012 in typesafe
+[debug] 	[2.1-09142012] play#anorm_2.9.2;2.+
+[debug] == resolving dependencies default#default-d51704_2.9.2;0.1-SNAPSHOT->play#anorm_2.9.2;2.+ [compile->runtime]
+[debug] loadData of play#anorm_2.9.2;2.1-09142012 of rootConf=compile
+[debug] == resolving dependencies default#default-d51704_2.9.2;0.1-SNAPSHOT->play#anorm_2.9.2;2.+ [compile->compile]
+[debug] loadData of play#anorm_2.9.2;2.1-09142012 of rootConf=compile
+[debug] == resolving dependencies play#anorm_2.9.2;2.+->org.scala-lang#scala-library;2.9.2 [compile->master(*)]
+[debug] loadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile
+[debug] == resolving dependencies play#anorm_2.9.2;2.+->org.scala-lang#scala-library;2.9.2 [compile->compile(*)]
+[debug] loadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile
+[debug] == resolving dependencies play#anorm_2.9.2;2.+->org.scala-lang#scala-library;2.9.2 [runtime->runtime(*)]
+[debug] loadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile
+[debug] == resolving dependencies play#anorm_2.9.2;2.+->org.scala-lang#scala-library;2.9.2 [runtime->compile]
+[debug] loadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile
+[debug] compile is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies default#default-d51704_2.9.2;0.1-SNAPSHOT->play#anorm_2.9.2;2.+ [compile->master]
+[debug] loadData of play#anorm_2.9.2;2.1-09142012 of rootConf=compile
+[debug] resolving dependencies for configuration 'runtime'
+[debug] == resolving dependencies for default#default-d51704_2.9.2;0.1-SNAPSHOT [runtime]
+[debug] loadData of default#default-d51704_2.9.2;0.1-SNAPSHOT of rootConf=runtime
+[debug] == resolving dependencies for default#default-d51704_2.9.2;0.1-SNAPSHOT [compile]
+[debug] loadData of default#default-d51704_2.9.2;0.1-SNAPSHOT of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies default#default-d51704_2.9.2;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->default(compile)]
+[debug] loadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime
+[debug] == resolving dependencies default#default-d51704_2.9.2;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->runtime]
+[debug] loadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies default#default-d51704_2.9.2;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->compile]
+[debug] loadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies default#default-d51704_2.9.2;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->master]
+[debug] loadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies default#default-d51704_2.9.2;0.1-SNAPSHOT->play#anorm_2.9.2;2.+ [compile->default(compile)]
+[debug] loadData of play#anorm_2.9.2;2.1-09142012 of rootConf=runtime
+[debug] == resolving dependencies default#default-d51704_2.9.2;0.1-SNAPSHOT->play#anorm_2.9.2;2.+ [compile->runtime]
+[debug] loadData of play#anorm_2.9.2;2.1-09142012 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies default#default-d51704_2.9.2;0.1-SNAPSHOT->play#anorm_2.9.2;2.+ [compile->compile]
+[debug] loadData of play#anorm_2.9.2;2.1-09142012 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies play#anorm_2.9.2;2.+->org.scala-lang#scala-library;2.9.2 [compile->master(*)]
+[debug] loadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies play#anorm_2.9.2;2.+->org.scala-lang#scala-library;2.9.2 [compile->compile(*)]
+[debug] loadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies play#anorm_2.9.2;2.+->org.scala-lang#scala-library;2.9.2 [runtime->runtime(*)]
+[debug] loadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies play#anorm_2.9.2;2.+->org.scala-lang#scala-library;2.9.2 [runtime->compile]
+[debug] loadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies default#default-d51704_2.9.2;0.1-SNAPSHOT->play#anorm_2.9.2;2.+ [compile->master]
+[debug] loadData of play#anorm_2.9.2;2.1-09142012 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] resolving dependencies for configuration 'test'
+[debug] == resolving dependencies for default#default-d51704_2.9.2;0.1-SNAPSHOT [test]
+[debug] loadData of default#default-d51704_2.9.2;0.1-SNAPSHOT of rootConf=test
+[debug] == resolving dependencies for default#default-d51704_2.9.2;0.1-SNAPSHOT [runtime]
+[debug] loadData of default#default-d51704_2.9.2;0.1-SNAPSHOT of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies for default#default-d51704_2.9.2;0.1-SNAPSHOT [compile]
+[debug] loadData of default#default-d51704_2.9.2;0.1-SNAPSHOT of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies default#default-d51704_2.9.2;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->default(compile)]
+[debug] loadData of org.scala-lang#scala-library;2.9.2 of rootConf=test
+[debug] == resolving dependencies default#default-d51704_2.9.2;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->runtime]
+[debug] loadData of org.scala-lang#scala-library;2.9.2 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies default#default-d51704_2.9.2;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->compile]
+[debug] loadData of org.scala-lang#scala-library;2.9.2 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies default#default-d51704_2.9.2;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->master]
+[debug] loadData of org.scala-lang#scala-library;2.9.2 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies default#default-d51704_2.9.2;0.1-SNAPSHOT->play#anorm_2.9.2;2.+ [compile->default(compile)]
+[debug] loadData of play#anorm_2.9.2;2.1-09142012 of rootConf=test
+[debug] == resolving dependencies default#default-d51704_2.9.2;0.1-SNAPSHOT->play#anorm_2.9.2;2.+ [compile->runtime]
+[debug] loadData of play#anorm_2.9.2;2.1-09142012 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies default#default-d51704_2.9.2;0.1-SNAPSHOT->play#anorm_2.9.2;2.+ [compile->compile]
+[debug] loadData of play#anorm_2.9.2;2.1-09142012 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies play#anorm_2.9.2;2.+->org.scala-lang#scala-library;2.9.2 [compile->master(*)]
+[debug] loadData of org.scala-lang#scala-library;2.9.2 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies play#anorm_2.9.2;2.+->org.scala-lang#scala-library;2.9.2 [compile->compile(*)]
+[debug] loadData of org.scala-lang#scala-library;2.9.2 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies play#anorm_2.9.2;2.+->org.scala-lang#scala-library;2.9.2 [runtime->runtime(*)]
+[debug] loadData of org.scala-lang#scala-library;2.9.2 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies play#anorm_2.9.2;2.+->org.scala-lang#scala-library;2.9.2 [runtime->compile]
+[debug] loadData of org.scala-lang#scala-library;2.9.2 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies default#default-d51704_2.9.2;0.1-SNAPSHOT->play#anorm_2.9.2;2.+ [compile->master]
+[debug] loadData of play#anorm_2.9.2;2.1-09142012 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] resolving dependencies for configuration 'provided'
+[debug] == resolving dependencies for default#default-d51704_2.9.2;0.1-SNAPSHOT [provided]
+[debug] loadData of default#default-d51704_2.9.2;0.1-SNAPSHOT of rootConf=provided
+[debug] resolving dependencies for configuration 'optional'
+[debug] == resolving dependencies for default#default-d51704_2.9.2;0.1-SNAPSHOT [optional]
+[debug] loadData of default#default-d51704_2.9.2;0.1-SNAPSHOT of rootConf=optional
+[debug] resolving dependencies for configuration 'compile-internal'
+[debug] == resolving dependencies for default#default-d51704_2.9.2;0.1-SNAPSHOT [compile-internal]
+[debug] loadData of default#default-d51704_2.9.2;0.1-SNAPSHOT of rootConf=compile-internal
+[debug] == resolving dependencies for default#default-d51704_2.9.2;0.1-SNAPSHOT [compile]
+[debug] loadData of default#default-d51704_2.9.2;0.1-SNAPSHOT of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies default#default-d51704_2.9.2;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->default(compile)]
+[debug] loadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile-internal
+[debug] == resolving dependencies default#default-d51704_2.9.2;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->runtime]
+[debug] loadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies default#default-d51704_2.9.2;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->compile]
+[debug] loadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies default#default-d51704_2.9.2;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->master]
+[debug] loadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies default#default-d51704_2.9.2;0.1-SNAPSHOT->play#anorm_2.9.2;2.+ [compile->default(compile)]
+[debug] loadData of play#anorm_2.9.2;2.1-09142012 of rootConf=compile-internal
+[debug] == resolving dependencies default#default-d51704_2.9.2;0.1-SNAPSHOT->play#anorm_2.9.2;2.+ [compile->runtime]
+[debug] loadData of play#anorm_2.9.2;2.1-09142012 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies default#default-d51704_2.9.2;0.1-SNAPSHOT->play#anorm_2.9.2;2.+ [compile->compile]
+[debug] loadData of play#anorm_2.9.2;2.1-09142012 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies play#anorm_2.9.2;2.+->org.scala-lang#scala-library;2.9.2 [compile->master(*)]
+[debug] loadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies play#anorm_2.9.2;2.+->org.scala-lang#scala-library;2.9.2 [compile->compile(*)]
+[debug] loadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies play#anorm_2.9.2;2.+->org.scala-lang#scala-library;2.9.2 [runtime->runtime(*)]
+[debug] loadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies play#anorm_2.9.2;2.+->org.scala-lang#scala-library;2.9.2 [runtime->compile]
+[debug] loadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies default#default-d51704_2.9.2;0.1-SNAPSHOT->play#anorm_2.9.2;2.+ [compile->master]
+[debug] loadData of play#anorm_2.9.2;2.1-09142012 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies for default#default-d51704_2.9.2;0.1-SNAPSHOT [optional]
+[debug] loadData of default#default-d51704_2.9.2;0.1-SNAPSHOT of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies for default#default-d51704_2.9.2;0.1-SNAPSHOT [provided]
+[debug] loadData of default#default-d51704_2.9.2;0.1-SNAPSHOT of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] resolving dependencies for configuration 'runtime-internal'
+[debug] == resolving dependencies for default#default-d51704_2.9.2;0.1-SNAPSHOT [runtime-internal]
+[debug] loadData of default#default-d51704_2.9.2;0.1-SNAPSHOT of rootConf=runtime-internal
+[debug] == resolving dependencies for default#default-d51704_2.9.2;0.1-SNAPSHOT [runtime]
+[debug] loadData of default#default-d51704_2.9.2;0.1-SNAPSHOT of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies for default#default-d51704_2.9.2;0.1-SNAPSHOT [compile]
+[debug] loadData of default#default-d51704_2.9.2;0.1-SNAPSHOT of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies default#default-d51704_2.9.2;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->default(compile)]
+[debug] loadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime-internal
+[debug] == resolving dependencies default#default-d51704_2.9.2;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->runtime]
+[debug] loadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies default#default-d51704_2.9.2;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->compile]
+[debug] loadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies default#default-d51704_2.9.2;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->master]
+[debug] loadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies default#default-d51704_2.9.2;0.1-SNAPSHOT->play#anorm_2.9.2;2.+ [compile->default(compile)]
+[debug] loadData of play#anorm_2.9.2;2.1-09142012 of rootConf=runtime-internal
+[debug] == resolving dependencies default#default-d51704_2.9.2;0.1-SNAPSHOT->play#anorm_2.9.2;2.+ [compile->runtime]
+[debug] loadData of play#anorm_2.9.2;2.1-09142012 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies default#default-d51704_2.9.2;0.1-SNAPSHOT->play#anorm_2.9.2;2.+ [compile->compile]
+[debug] loadData of play#anorm_2.9.2;2.1-09142012 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies play#anorm_2.9.2;2.+->org.scala-lang#scala-library;2.9.2 [compile->master(*)]
+[debug] loadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies play#anorm_2.9.2;2.+->org.scala-lang#scala-library;2.9.2 [compile->compile(*)]
+[debug] loadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies play#anorm_2.9.2;2.+->org.scala-lang#scala-library;2.9.2 [runtime->runtime(*)]
+[debug] loadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies play#anorm_2.9.2;2.+->org.scala-lang#scala-library;2.9.2 [runtime->compile]
+[debug] loadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies default#default-d51704_2.9.2;0.1-SNAPSHOT->play#anorm_2.9.2;2.+ [compile->master]
+[debug] loadData of play#anorm_2.9.2;2.1-09142012 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies for default#default-d51704_2.9.2;0.1-SNAPSHOT [optional]
+[debug] loadData of default#default-d51704_2.9.2;0.1-SNAPSHOT of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] resolving dependencies for configuration 'test-internal'
+[debug] == resolving dependencies for default#default-d51704_2.9.2;0.1-SNAPSHOT [test-internal]
+[debug] loadData of default#default-d51704_2.9.2;0.1-SNAPSHOT of rootConf=test-internal
+[debug] == resolving dependencies for default#default-d51704_2.9.2;0.1-SNAPSHOT [test]
+[debug] loadData of default#default-d51704_2.9.2;0.1-SNAPSHOT of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies for default#default-d51704_2.9.2;0.1-SNAPSHOT [runtime]
+[debug] loadData of default#default-d51704_2.9.2;0.1-SNAPSHOT of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies for default#default-d51704_2.9.2;0.1-SNAPSHOT [compile]
+[debug] loadData of default#default-d51704_2.9.2;0.1-SNAPSHOT of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies default#default-d51704_2.9.2;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->default(compile)]
+[debug] loadData of org.scala-lang#scala-library;2.9.2 of rootConf=test-internal
+[debug] == resolving dependencies default#default-d51704_2.9.2;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->runtime]
+[debug] loadData of org.scala-lang#scala-library;2.9.2 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies default#default-d51704_2.9.2;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->compile]
+[debug] loadData of org.scala-lang#scala-library;2.9.2 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies default#default-d51704_2.9.2;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->master]
+[debug] loadData of org.scala-lang#scala-library;2.9.2 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies default#default-d51704_2.9.2;0.1-SNAPSHOT->play#anorm_2.9.2;2.+ [compile->default(compile)]
+[debug] loadData of play#anorm_2.9.2;2.1-09142012 of rootConf=test-internal
+[debug] == resolving dependencies default#default-d51704_2.9.2;0.1-SNAPSHOT->play#anorm_2.9.2;2.+ [compile->runtime]
+[debug] loadData of play#anorm_2.9.2;2.1-09142012 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies default#default-d51704_2.9.2;0.1-SNAPSHOT->play#anorm_2.9.2;2.+ [compile->compile]
+[debug] loadData of play#anorm_2.9.2;2.1-09142012 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies play#anorm_2.9.2;2.+->org.scala-lang#scala-library;2.9.2 [compile->master(*)]
+[debug] loadData of org.scala-lang#scala-library;2.9.2 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies play#anorm_2.9.2;2.+->org.scala-lang#scala-library;2.9.2 [compile->compile(*)]
+[debug] loadData of org.scala-lang#scala-library;2.9.2 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies play#anorm_2.9.2;2.+->org.scala-lang#scala-library;2.9.2 [runtime->runtime(*)]
+[debug] loadData of org.scala-lang#scala-library;2.9.2 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies play#anorm_2.9.2;2.+->org.scala-lang#scala-library;2.9.2 [runtime->compile]
+[debug] loadData of org.scala-lang#scala-library;2.9.2 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies default#default-d51704_2.9.2;0.1-SNAPSHOT->play#anorm_2.9.2;2.+ [compile->master]
+[debug] loadData of play#anorm_2.9.2;2.1-09142012 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies for default#default-d51704_2.9.2;0.1-SNAPSHOT [optional]
+[debug] loadData of default#default-d51704_2.9.2;0.1-SNAPSHOT of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies for default#default-d51704_2.9.2;0.1-SNAPSHOT [provided]
+[debug] loadData of default#default-d51704_2.9.2;0.1-SNAPSHOT of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] resolving dependencies for configuration 'plugin'
+[debug] == resolving dependencies for default#default-d51704_2.9.2;0.1-SNAPSHOT [plugin]
+[debug] loadData of default#default-d51704_2.9.2;0.1-SNAPSHOT of rootConf=plugin
+[debug] resolving dependencies for configuration 'sources'
+[debug] == resolving dependencies for default#default-d51704_2.9.2;0.1-SNAPSHOT [sources]
+[debug] loadData of default#default-d51704_2.9.2;0.1-SNAPSHOT of rootConf=sources
+[debug] resolving dependencies for configuration 'docs'
+[debug] == resolving dependencies for default#default-d51704_2.9.2;0.1-SNAPSHOT [docs]
+[debug] loadData of default#default-d51704_2.9.2;0.1-SNAPSHOT of rootConf=docs
+[debug] resolving dependencies for configuration 'pom'
+[debug] == resolving dependencies for default#default-d51704_2.9.2;0.1-SNAPSHOT [pom]
+[debug] loadData of default#default-d51704_2.9.2;0.1-SNAPSHOT of rootConf=pom
+[debug] Nbr of module to sort : 2
+[debug] Sort dependencies of : org.scala-lang#scala-library;2.9.2 / Number of dependencies = 0
+[debug] Sort done for : org.scala-lang#scala-library;2.9.2
+[debug] Sort dependencies of : play#anorm_2.9.2;2.1-09142012 / Number of dependencies = 1
+[debug] Module descriptor is processed : org.scala-lang#scala-library;2.9.2
+[debug] Sort done for : play#anorm_2.9.2;2.1-09142012
+[debug] org.scala-lang#scala-library;2.9.2 in runtime-internal: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar
+[debug] org.scala-lang#scala-library;2.9.2 in compile-internal: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar
+[debug] org.scala-lang#scala-library;2.9.2 in compile: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar
+[debug] org.scala-lang#scala-library;2.9.2 in test: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar
+[debug] org.scala-lang#scala-library;2.9.2 in test-internal: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar
+[debug] org.scala-lang#scala-library;2.9.2 in runtime: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar
+[debug] 	resolved ivy file produced in /Users/smikesh/.ivy2/cache/resolved-default-default-d51704_2.9.2-0.1-SNAPSHOT.xml
+[debug] :: downloading artifacts ::
+[debug] org.scala-lang#scala-library;2.9.2 in runtime-internal: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar
+[debug] org.scala-lang#scala-library;2.9.2 in compile-internal: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar
+[debug] org.scala-lang#scala-library;2.9.2 in compile: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar
+[debug] org.scala-lang#scala-library;2.9.2 in test: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar
+[debug] org.scala-lang#scala-library;2.9.2 in test-internal: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar
+[debug] org.scala-lang#scala-library;2.9.2 in runtime: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar
+[debug] org.scala-lang#scala-library;2.9.2 in runtime-internal: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar
+[debug] org.scala-lang#scala-library;2.9.2 in compile-internal: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar
+[debug] org.scala-lang#scala-library;2.9.2 in compile: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar
+[debug] org.scala-lang#scala-library;2.9.2 in test: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar
+[debug] org.scala-lang#scala-library;2.9.2 in test-internal: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar
+[debug] org.scala-lang#scala-library;2.9.2 in runtime: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar
+[debug] 	 trying http://repo.typesafe.com/typesafe/releases/play/anorm_2.9.2/2.1-09142012/anorm_2.9.2-2.1-09142012.jar
+[debug] 		tried http://repo.typesafe.com/typesafe/releases/play/anorm_2.9.2/2.1-09142012/anorm_2.9.2-2.1-09142012.jar
+[info] downloading http://repo.typesafe.com/typesafe/releases/play/anorm_2.9.2/2.1-09142012/anorm_2.9.2-2.1-09142012.jar ...
+[debug] 	typesafe: downloading http://repo.typesafe.com/typesafe/releases/play/anorm_2.9.2/2.1-09142012/anorm_2.9.2-2.1-09142012.jar
+[debug] 		to /Users/smikesh/.ivy2/cache/play/anorm_2.9.2/jars/anorm_2.9.2-2.1-09142012.jar.part
+[debug] sha1 file found for http://repo.typesafe.com/typesafe/releases/play/anorm_2.9.2/2.1-09142012/anorm_2.9.2-2.1-09142012.jar: checking...
+[debug] 	typesafe: downloading http://repo.typesafe.com/typesafe/releases/play/anorm_2.9.2/2.1-09142012/anorm_2.9.2-2.1-09142012.jar.sha1
+[debug] 		to /var/folders/qp/k62jmw3s0wxdsz55214_mf640000gn/T/ivytmp8254572320026020738sha1
+[debug] sha1 OK for http://repo.typesafe.com/typesafe/releases/play/anorm_2.9.2/2.1-09142012/anorm_2.9.2-2.1-09142012.jar
+[info] 	[SUCCESSFUL ] play#anorm_2.9.2;2.1-09142012!anorm_2.9.2.jar (1131ms)
+[debug] :: resolution report :: resolve 1184ms :: artifacts dl 1132ms
+[debug] Nbr of module to sort : 2
+[debug] Sort dependencies of : org.scala-lang#scala-library;2.9.2 / Number of dependencies = 0
+[debug] Sort done for : org.scala-lang#scala-library;2.9.2
+[debug] Sort dependencies of : play#anorm_2.9.2;2.1-09142012 / Number of dependencies = 1
+[debug] Module descriptor is processed : org.scala-lang#scala-library;2.9.2
+[debug] Sort done for : play#anorm_2.9.2;2.1-09142012
+[debug] 	report for default#default-d51704_2.9.2;0.1-SNAPSHOT compile produced in /Users/smikesh/.ivy2/cache/default-default-d51704_2.9.2-compile.xml
+[debug] Nbr of module to sort : 2
+[debug] Sort dependencies of : org.scala-lang#scala-library;2.9.2 / Number of dependencies = 0
+[debug] Sort done for : org.scala-lang#scala-library;2.9.2
+[debug] Sort dependencies of : play#anorm_2.9.2;2.1-09142012 / Number of dependencies = 1
+[debug] Module descriptor is processed : org.scala-lang#scala-library;2.9.2
+[debug] Sort done for : play#anorm_2.9.2;2.1-09142012
+[debug] 	report for default#default-d51704_2.9.2;0.1-SNAPSHOT runtime produced in /Users/smikesh/.ivy2/cache/default-default-d51704_2.9.2-runtime.xml
+[debug] Nbr of module to sort : 2
+[debug] Sort dependencies of : org.scala-lang#scala-library;2.9.2 / Number of dependencies = 0
+[debug] Sort done for : org.scala-lang#scala-library;2.9.2
+[debug] Sort dependencies of : play#anorm_2.9.2;2.1-09142012 / Number of dependencies = 1
+[debug] Module descriptor is processed : org.scala-lang#scala-library;2.9.2
+[debug] Sort done for : play#anorm_2.9.2;2.1-09142012
+[debug] 	report for default#default-d51704_2.9.2;0.1-SNAPSHOT test produced in /Users/smikesh/.ivy2/cache/default-default-d51704_2.9.2-test.xml
+[debug] Nbr of module to sort : 0
+[debug] 	report for default#default-d51704_2.9.2;0.1-SNAPSHOT provided produced in /Users/smikesh/.ivy2/cache/default-default-d51704_2.9.2-provided.xml
+[debug] Nbr of module to sort : 0
+[debug] 	report for default#default-d51704_2.9.2;0.1-SNAPSHOT optional produced in /Users/smikesh/.ivy2/cache/default-default-d51704_2.9.2-optional.xml
+[debug] Nbr of module to sort : 2
+[debug] Sort dependencies of : org.scala-lang#scala-library;2.9.2 / Number of dependencies = 0
+[debug] Sort done for : org.scala-lang#scala-library;2.9.2
+[debug] Sort dependencies of : play#anorm_2.9.2;2.1-09142012 / Number of dependencies = 1
+[debug] Module descriptor is processed : org.scala-lang#scala-library;2.9.2
+[debug] Sort done for : play#anorm_2.9.2;2.1-09142012
+[debug] 	report for default#default-d51704_2.9.2;0.1-SNAPSHOT compile-internal produced in /Users/smikesh/.ivy2/cache/default-default-d51704_2.9.2-compile-internal.xml
+[debug] Nbr of module to sort : 2
+[debug] Sort dependencies of : org.scala-lang#scala-library;2.9.2 / Number of dependencies = 0
+[debug] Sort done for : org.scala-lang#scala-library;2.9.2
+[debug] Sort dependencies of : play#anorm_2.9.2;2.1-09142012 / Number of dependencies = 1
+[debug] Module descriptor is processed : org.scala-lang#scala-library;2.9.2
+[debug] Sort done for : play#anorm_2.9.2;2.1-09142012
+[debug] 	report for default#default-d51704_2.9.2;0.1-SNAPSHOT runtime-internal produced in /Users/smikesh/.ivy2/cache/default-default-d51704_2.9.2-runtime-internal.xml
+[debug] Nbr of module to sort : 2
+[debug] Sort dependencies of : org.scala-lang#scala-library;2.9.2 / Number of dependencies = 0
+[debug] Sort done for : org.scala-lang#scala-library;2.9.2
+[debug] Sort dependencies of : play#anorm_2.9.2;2.1-09142012 / Number of dependencies = 1
+[debug] Module descriptor is processed : org.scala-lang#scala-library;2.9.2
+[debug] Sort done for : play#anorm_2.9.2;2.1-09142012
+[debug] 	report for default#default-d51704_2.9.2;0.1-SNAPSHOT test-internal produced in /Users/smikesh/.ivy2/cache/default-default-d51704_2.9.2-test-internal.xml
+[debug] Nbr of module to sort : 0
+[debug] 	report for default#default-d51704_2.9.2;0.1-SNAPSHOT plugin produced in /Users/smikesh/.ivy2/cache/default-default-d51704_2.9.2-plugin.xml
+[debug] Nbr of module to sort : 0
+[debug] 	report for default#default-d51704_2.9.2;0.1-SNAPSHOT sources produced in /Users/smikesh/.ivy2/cache/default-default-d51704_2.9.2-sources.xml
+[debug] Nbr of module to sort : 0
+[debug] 	report for default#default-d51704_2.9.2;0.1-SNAPSHOT docs produced in /Users/smikesh/.ivy2/cache/default-default-d51704_2.9.2-docs.xml
+[debug] Nbr of module to sort : 0
+[debug] 	report for default#default-d51704_2.9.2;0.1-SNAPSHOT pom produced in /Users/smikesh/.ivy2/cache/default-default-d51704_2.9.2-pom.xml
+[debug] 	resolve done (1184ms resolve - 1132ms download)
+[info] Done updating.

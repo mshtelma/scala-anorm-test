@@ -1,0 +1,12 @@
+[info] Running Main 
+[debug] Starting sandboxed run...
+[debug] Waiting for threads to exit or System.exit to be called.
+[debug]   Classpath:
+[debug] 	/Volumes/Share/dev/HySym/target/scala-2.9.2/classes
+[debug] 	/Users/smikesh/.sbt/boot/scala-2.9.2/lib/scala-library.jar
+[debug] 	/Users/smikesh/.ivy2/cache/play/anorm_2.9.2/jars/anorm_2.9.2-2.1-09142012.jar
+[debug] Waiting for thread run-main to exit
+[debug] 	Thread run-main exited.
+[debug] Interrupting remaining threads (should be all daemons).
+[debug] Sandboxed run complete..
+[debug] Exited with code 0
