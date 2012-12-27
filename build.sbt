@@ -9,5 +9,6 @@ libraryDependencies ++= Seq(
   "play" %% "anorm" % "2.+",
   "play" %% "play" % "2.+",
   "net.sourceforge.jtds" % "jtds" % "1.+",
-  "com.github.seratch" %% "scalikejdbc" % "[0.5,)"
+  "com.github.seratch" %% "scalikejdbc" % "[0.5,)",
+  "org.scalaj" %% "scalaj-time" % "0.6"
 )
